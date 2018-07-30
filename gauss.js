@@ -16,19 +16,19 @@ function array_fill(i, n, v) {
  */
 function gauss(A, x) {
 
-      //Laufvariablen
+      //Index variables
       var i, k, j;
 
       var A_copy=[];
       var x_copy=[];
 
-      //Kopie von A anlegen
+      //Copy A
       for (var i=0; i<A.length; ++i)
       {
         A_copy[i] = A[i].slice();
       }
 
-      //Kopie von b anlegen
+      //Copy b
       for (var i=0; i<x.length; ++i)
       {
         x_copy[i] = x[i];
